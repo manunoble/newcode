@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Base Converter</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body class="dark">
+  <div class="container">
+    <h1>Advanced Base Converter</h1>
+
+    <div class="converter">
+      <label for="inputNumber">Enter Number:</label>
+      <input type="text" id="inputNumber" placeholder="e.g., 1010" title="Enter the number in the selected input base">
+      <button onclick="clearInput()" class="clear-button">Clear</button>
+
+      <div class="slider-container">
+        <label for="inputBaseSlider">From Base: <span id="inputBaseValue">2</span></label>
+        <input type="range" id="inputBaseSlider" min="2" max="36" value="2">
+
+        <label for="outputBaseSlider">To Base: <span id="outputBaseValue">10</span></label>
+        <input type="range" id="outputBaseSlider" min="2" max="36" value="10">
+      </div>
+
+      <button onclick="convertBase()">Convert</button>
+      
+      <div class="result">
+        <p id="resultText">Result: <span id="outputNumber"></span></p>
+        <button onclick="copyResult()" class="copy-button">Copy Result</button>
+      </div>
+    </div>
+
+    <div class="history">
+      <h2>Conversion History</h2>
+      <ul id="historyList"></ul>
+      <button onclick="clearHistory()">Clear History</button>
+    </div>
+
+    <button onclick="toggleTheme()" class="theme-switcher">Toggle Theme</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

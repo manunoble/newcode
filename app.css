@@ -1,0 +1,147 @@
+/* Sukuna Theme - Dark and Sinister Colors */
+body.dark {
+    background-color: #1b1b1b; /* Dark background for a cursed vibe */
+    color: #d12c2c; /* Blood-red for text */
+  }            
+  
+  body.light {
+    background-color: #3c3c3c; /* Dark grey for light mode */
+    color: #d12c2c;
+  }
+  
+  /* Sukuna Theme - Container */
+  .container {
+    background-color: #2a2a2a; /* Darker grey */
+    border: 2px solid #d12c2c; /* Red border for intensity */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(209, 44, 44, 0.6); /* Red shadow for a cursed aura */
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    margin-bottom: 1.5rem;
+    color: #d12c2c; /* Blood-red color */
+    font-family: 'Creepster', cursive; /* Cursed-looking font (use Google Fonts or similar) */
+  }
+  
+  /* Form Styling */
+  label {
+    display: block;
+    margin-top: 1rem;
+    color: #ff5c5c;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #d12c2c;
+    border-radius: 6px;
+    background-color: #1b1b1b;
+    color: #ff5c5c;
+  }
+  
+  /* Clear and Copy Buttons */
+  .clear-button,
+  .copy-button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #d12c2c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    /* cursor: pointer; */
+  }
+  
+  .clear-button:hover,
+  .copy-button:hover {
+    background-color: #b32020;
+  }
+  
+  /* Slider Styling */
+  .slider-container {
+    margin-top: 1rem;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 0.5rem 0;
+    accent-color: #ff4500; /* OrangeRed slider */
+  }
+  
+  /* Button Styling */
+  button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff4500; /* OrangeRed background */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6347; /* Tomato on hover */
+  }
+  
+  /* Result Styling */
+  .result {
+    margin-top: 1.5rem;
+    background-color: #ff6347; /* Tomato background */
+    padding: 1rem;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* History Styling */
+  .history {
+    margin-top: 2rem;
+  }
+  
+  .history h2 {
+    color: #ff4500; /* OrangeRed color */
+  }
+  
+  #historyList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #historyList li {
+    background-color: #ff6347; /* Tomato background */
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  #historyList li span {
+    color: #ff4500; /* OrangeRed color */
+  }
+  
+  /* Theme Switch Button */
+  .theme-switcher {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff4500; /* OrangeRed background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .theme-switcher:hover {
+    background-color: #ff6347; /* Tomato on hover */
+  }
+  
+  /* Background styling */
+  body {
+    background-image: url('img/IMG-20241113-WA0007.jpg'); /* Add your fire background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
